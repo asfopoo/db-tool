@@ -1,0 +1,60 @@
+$white: #fff;
+$offWhite: #ddd;
+$grayedOut: #999;
+
+.paging {
+  list-style: none;
+}
+
+.paging > li {
+  display: inline;
+}
+
+li:first-child > button{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+li:last-child > button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.paging > li > button {
+  background: $white;
+  border: 1px solid $offWhite;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  min-width: 42px;
+}
+
+.paging > li > button:hover {
+  background: lightgray;
+}
+
+.paging > li > button {
+  &:focus, &:active {
+    outline: 0;
+  }
+
+  &:hover {
+    background: lightgray;
+  }
+}
+
+.currentSelection {
+  background: $rlColorBlue !important;
+  border: 1px solid $rlColorBlue !important;
+  color: $white;
+}
+
+.paging > li > .disabled {
+  color: $grayedOut;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.paging > li > .disabled:hover {
+  background: $white;
+}

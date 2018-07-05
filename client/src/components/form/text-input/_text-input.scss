@@ -1,0 +1,14 @@
+.rl-input {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #cccccc;
+  border-radius: 0;
+  padding: 0 0 3px 0;
+
+
+  &:focus{
+    border-bottom: 1px solid $rlColorPrimary;
+    box-shadow: none;
+    outline: 0;
+  }
+}

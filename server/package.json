@@ -1,0 +1,33 @@
+{
+  "name": "admin-dashboard-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "boom": "^7.2.0",
+    "composable-middleware": "^0.3.0",
+    "compression": "^1.7.2",
+    "convict": "^4.3.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-boom": "^2.0.0",
+    "express-jwt": "^5.3.1",
+    "js-type-checker": "^1.0.0",
+    "jsonwebtoken": "^8.2.2",
+    "lodash": "^4.17.10",
+    "merge-descriptors": "^1.0.1",
+    "moment": "^2.22.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.4.3",
+    "recurly-node-api": "^1.0.0",
+    "sequelize": "^4.37.10",
+    "uuid": "^3.2.1"
+  },
+  "engines": {
+    "node": ">= 8.9.4"
+  }
+}

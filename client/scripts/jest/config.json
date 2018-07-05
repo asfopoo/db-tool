@@ -1,0 +1,29 @@
+{
+  "rootDir": "./../../",
+  "roots": [
+    "<rootDir>/src/"
+  ],
+  "transform": {
+    ".*": "<rootDir>/node_modules/jest-css-modules"
+  },
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "jsx"
+  ],
+  "testPathIgnorePatterns": [
+    "<rootDir>/scripts/",
+    "<rootDir>/buil/",
+    "<rootDir>/node_modules/"
+  ],
+  "testMatch": [
+    "**/*.spec.jsx"
+  ],
+  "setupFiles": [
+    "<rootDir>/scripts/jest/setup/enzyme.js"
+  ],
+  "moduleNameMapper": {
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+    "\\.(scss|less|css)$": "identity-obj-proxy"
+  }
+}

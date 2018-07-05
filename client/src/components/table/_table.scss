@@ -1,0 +1,13 @@
+.rt-th{
+  &:hover, &:focus{
+    outline: none;
+  }
+}
+
+.rt-tr {
+  background-color: #ffffff;
+}
+
+.rt-thead .rt-tr {
+  background-color: #e8e8e9;
+}

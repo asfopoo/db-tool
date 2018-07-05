@@ -1,0 +1,113 @@
+.rl-side-navigation {
+  height: 100%;
+  width: 190px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 70px 15px 0 15px;
+  background-color: #1e1e1e;
+}
+
+.rl-side-navigation-menu {
+  list-style-type: none;
+  padding: 0;
+  &:before {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .active-side-nav-item {
+    border-left: 2px solid white;
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+}
+
+.rl-side-navigation-menu li{
+  display: block;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  color: #FFFFFF;
+}
+
+.rl-side-navigation li a {
+  color: #c7c7c7;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 48px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: 300;
+
+  &:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  &:active {
+    text-decoration: none;
+  }
+}
+
+.rl-side-navigation li a .fa, .rl-side-navigation li a .fas {
+  padding-right: 15px;
+}
+
+.rl-side-navigation .toggle-desktop-menu {
+  margin: 0;
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+
+  button {
+    padding: 0;
+    position: relative;
+    right: 0;
+    float: right;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 26px;
+    height: 26px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: $rlColorPrimary;
+    border: none;
+  }
+
+  &:before {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+.rl-side-navigation-logo-wrapper {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+
+  img{
+    width: 90%;
+    display: inline-block;
+    height: auto;
+  }
+}

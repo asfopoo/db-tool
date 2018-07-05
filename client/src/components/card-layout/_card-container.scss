@@ -1,0 +1,10 @@
+.rl-card-container{
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #d7d7d9;
+  box-shadow: 0 1px 0 #e8e8e9;
+}
+
+.rl-card-container +.rl-card-container {
+  margin-top: 24px;
+}

@@ -1,0 +1,4858 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ReactWrapper {
+  "length": 1,
+  Symbol(enzyme.__unrendered__): <Pagination
+    callback={[Function]}
+    currentPage={1}
+    maxSize={5}
+    totalPages={10}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": Pagination {
+      "_reactInternalFiber": FiberNode {
+        "_debugID": 5,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": FiberNode {
+          "_debugID": 4,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "alternate": null,
+          "child": [Circular],
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "callback": [Function],
+              "currentPage": 1,
+              "maxSize": 5,
+              "totalPages": 10,
+            },
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {
+              "callback": [Function],
+              "currentPage": 1,
+              "maxSize": 5,
+              "totalPages": 10,
+            },
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "callback": [Function],
+              "currentPage": 1,
+              "maxSize": 5,
+              "totalPages": 10,
+            },
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 1,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "alternate": FiberNode {
+              "_debugID": 1,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "alternate": [Circular],
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 1,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <ul
+                    class="paging"
+                  >
+                    <li>
+                      <button
+                        class="disabled"
+                      >
+                        First
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class="disabled"
+                      >
+                        Previous
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class="currentSelection"
+                      >
+                        1
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        2
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        3
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        4
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        5
+                      </button>
+                    </li>
+                    <li>
+                      <button>
+                        Next
+                      </button>
+                    </li>
+                    <li>
+                      <button>
+                        Last
+                      </button>
+                    </li>
+                  </ul>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "remainingExpirationTime": 0,
+              },
+              "tag": 3,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "callbackList": null,
+                "capturedValues": null,
+                "expirationTime": 1,
+                "first": Object {
+                  "callback": null,
+                  "capturedValue": null,
+                  "expirationTime": 1,
+                  "isForced": false,
+                  "isReplace": false,
+                  "next": null,
+                  "partialState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "callback": [Function],
+                          "currentPage": 1,
+                          "maxSize": 5,
+                          "totalPages": 10,
+                        }
+                      }
+                    />,
+                  },
+                },
+                "hasForceUpdate": false,
+                "isInitialized": false,
+                "isProcessing": false,
+                "last": Object {
+                  "callback": null,
+                  "capturedValue": null,
+                  "expirationTime": 1,
+                  "isForced": false,
+                  "isReplace": false,
+                  "next": null,
+                  "partialState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "callback": [Function],
+                          "currentPage": 1,
+                          "maxSize": 5,
+                          "totalPages": 10,
+                        }
+                      }
+                    />,
+                  },
+                },
+              },
+            },
+            "child": [Circular],
+            "effectTag": 32,
+            "expirationTime": 0,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={
+                  Object {
+                    "callback": [Function],
+                    "currentPage": 1,
+                    "maxSize": 5,
+                    "totalPages": 10,
+                  }
+                }
+              />,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <ul
+                  class="paging"
+                >
+                  <li>
+                    <button
+                      class="disabled"
+                    >
+                      First
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="disabled"
+                    >
+                      Previous
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="currentSelection"
+                    >
+                      1
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class=""
+                    >
+                      2
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class=""
+                    >
+                      3
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class=""
+                    >
+                      4
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class=""
+                    >
+                      5
+                    </button>
+                  </li>
+                  <li>
+                    <button>
+                      Next
+                    </button>
+                  </li>
+                  <li>
+                    <button>
+                      Last
+                    </button>
+                  </li>
+                </ul>
+              </div>,
+              "context": Object {},
+              "current": [Circular],
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "remainingExpirationTime": 0,
+            },
+            "tag": 3,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "callback": [Function],
+                      "currentPage": 1,
+                      "maxSize": 5,
+                      "totalPages": 10,
+                    }
+                  }
+                />,
+              },
+              "callbackList": null,
+              "capturedValues": null,
+              "expirationTime": 0,
+              "first": null,
+              "hasForceUpdate": false,
+              "isInitialized": true,
+              "isProcessing": false,
+              "last": null,
+            },
+          },
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "callback": [Function],
+                "currentPage": 1,
+                "maxSize": 5,
+                "totalPages": 10,
+              },
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "callback": [Function],
+                "currentPage": 1,
+                "maxSize": 5,
+                "totalPages": 10,
+              },
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 2,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_debugSource": null,
+        "alternate": null,
+        "child": FiberNode {
+          "_debugID": 6,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": null,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 7,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 12,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "First",
+                "className": "disabled",
+                "onClick": [Function],
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "First",
+                "className": "disabled",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "return": [Circular],
+              "sibling": null,
+              "stateNode": <button
+                class="disabled"
+              >
+                First
+              </button>,
+              "tag": 5,
+              "type": "button",
+              "updateQueue": null,
+            },
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": <button
+                className="disabled"
+                onClick={[Function]}
+              >
+                First
+              </button>,
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": <button
+                className="disabled"
+                onClick={[Function]}
+              >
+                First
+              </button>,
+            },
+            "ref": null,
+            "return": [Circular],
+            "sibling": FiberNode {
+              "_debugID": 8,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 13,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "alternate": null,
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "Previous",
+                  "className": "disabled",
+                  "onClick": [Function],
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "Previous",
+                  "className": "disabled",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "return": [Circular],
+                "sibling": null,
+                "stateNode": <button
+                  class="disabled"
+                >
+                  Previous
+                </button>,
+                "tag": 5,
+                "type": "button",
+                "updateQueue": null,
+              },
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": <button
+                  className="disabled"
+                  onClick={[Function]}
+                >
+                  Previous
+                </button>,
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": <button
+                  className="disabled"
+                  onClick={[Function]}
+                >
+                  Previous
+                </button>,
+              },
+              "ref": null,
+              "return": [Circular],
+              "sibling": FiberNode {
+                "_debugID": 9,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 14,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 19,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "alternate": null,
+                    "child": null,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": 1,
+                      "className": "currentSelection",
+                      "onClick": [Function],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": 1,
+                      "className": "currentSelection",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": null,
+                    "stateNode": <button
+                      class="currentSelection"
+                    >
+                      1
+                    </button>,
+                    "tag": 5,
+                    "type": "button",
+                    "updateQueue": null,
+                  },
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": "1",
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": <button
+                      className="currentSelection"
+                      onClick={[Function]}
+                    >
+                      1
+                    </button>,
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": <button
+                      className="currentSelection"
+                      onClick={[Function]}
+                    >
+                      1
+                    </button>,
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": FiberNode {
+                    "_debugID": 15,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugID": 20,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "alternate": null,
+                      "child": null,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": 2,
+                        "className": "",
+                        "onClick": [Function],
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": 2,
+                        "className": "",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": null,
+                      "stateNode": <button
+                        class=""
+                      >
+                        2
+                      </button>,
+                      "tag": 5,
+                      "type": "button",
+                      "updateQueue": null,
+                    },
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": "2",
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": <button
+                        className=""
+                        onClick={[Function]}
+                      >
+                        2
+                      </button>,
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": <button
+                        className=""
+                        onClick={[Function]}
+                      >
+                        2
+                      </button>,
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": FiberNode {
+                      "_debugID": 16,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "alternate": null,
+                      "child": FiberNode {
+                        "_debugID": 21,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "alternate": null,
+                        "child": null,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": 3,
+                          "className": "",
+                          "onClick": [Function],
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": 3,
+                          "className": "",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "sibling": null,
+                        "stateNode": <button
+                          class=""
+                        >
+                          3
+                        </button>,
+                        "tag": 5,
+                        "type": "button",
+                        "updateQueue": null,
+                      },
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 2,
+                      "key": "3",
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": <button
+                          className=""
+                          onClick={[Function]}
+                        >
+                          3
+                        </button>,
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": <button
+                          className=""
+                          onClick={[Function]}
+                        >
+                          3
+                        </button>,
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": FiberNode {
+                        "_debugID": 17,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "alternate": null,
+                        "child": FiberNode {
+                          "_debugID": 22,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": null,
+                          "alternate": null,
+                          "child": null,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 0,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": 4,
+                            "className": "",
+                            "onClick": [Function],
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "children": 4,
+                            "className": "",
+                            "onClick": [Function],
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "sibling": null,
+                          "stateNode": <button
+                            class=""
+                          >
+                            4
+                          </button>,
+                          "tag": 5,
+                          "type": "button",
+                          "updateQueue": null,
+                        },
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 3,
+                        "key": "4",
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": <button
+                            className=""
+                            onClick={[Function]}
+                          >
+                            4
+                          </button>,
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": <button
+                            className=""
+                            onClick={[Function]}
+                          >
+                            4
+                          </button>,
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "sibling": FiberNode {
+                          "_debugID": 18,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": null,
+                          "alternate": null,
+                          "child": FiberNode {
+                            "_debugID": 23,
+                            "_debugIsCurrentlyTiming": false,
+                            "_debugOwner": [Circular],
+                            "_debugSource": null,
+                            "alternate": null,
+                            "child": null,
+                            "effectTag": 0,
+                            "expirationTime": 0,
+                            "firstEffect": null,
+                            "index": 0,
+                            "key": null,
+                            "lastEffect": null,
+                            "memoizedProps": Object {
+                              "children": 5,
+                              "className": "",
+                              "onClick": [Function],
+                            },
+                            "memoizedState": null,
+                            "mode": 0,
+                            "nextEffect": null,
+                            "pendingProps": Object {
+                              "children": 5,
+                              "className": "",
+                              "onClick": [Function],
+                            },
+                            "ref": null,
+                            "return": [Circular],
+                            "sibling": null,
+                            "stateNode": <button
+                              class=""
+                            >
+                              5
+                            </button>,
+                            "tag": 5,
+                            "type": "button",
+                            "updateQueue": null,
+                          },
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 4,
+                          "key": "5",
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": <button
+                              className=""
+                              onClick={[Function]}
+                            >
+                              5
+                            </button>,
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "children": <button
+                              className=""
+                              onClick={[Function]}
+                            >
+                              5
+                            </button>,
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "sibling": null,
+                          "stateNode": <li>
+                            <button
+                              class=""
+                            >
+                              5
+                            </button>
+                          </li>,
+                          "tag": 5,
+                          "type": "li",
+                          "updateQueue": null,
+                        },
+                        "stateNode": <li>
+                          <button
+                            class=""
+                          >
+                            4
+                          </button>
+                        </li>,
+                        "tag": 5,
+                        "type": "li",
+                        "updateQueue": null,
+                      },
+                      "stateNode": <li>
+                        <button
+                          class=""
+                        >
+                          3
+                        </button>
+                      </li>,
+                      "tag": 5,
+                      "type": "li",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <li>
+                      <button
+                        class=""
+                      >
+                        2
+                      </button>
+                    </li>,
+                    "tag": 5,
+                    "type": "li",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <li>
+                    <button
+                      class="currentSelection"
+                    >
+                      1
+                    </button>
+                  </li>,
+                  "tag": 5,
+                  "type": "li",
+                  "updateQueue": null,
+                },
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 2,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Array [
+                  <li>
+                    <button
+                      className="currentSelection"
+                      onClick={[Function]}
+                    >
+                      1
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      2
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      3
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      4
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      5
+                    </button>
+                  </li>,
+                ],
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Array [
+                  <li>
+                    <button
+                      className="currentSelection"
+                      onClick={[Function]}
+                    >
+                      1
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      2
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      3
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      4
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      5
+                    </button>
+                  </li>,
+                ],
+                "ref": null,
+                "return": [Circular],
+                "sibling": FiberNode {
+                  "_debugID": 10,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 24,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "alternate": null,
+                    "child": null,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Next",
+                      "className": undefined,
+                      "onClick": [Function],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Next",
+                      "className": undefined,
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": null,
+                    "stateNode": <button>
+                      Next
+                    </button>,
+                    "tag": 5,
+                    "type": "button",
+                    "updateQueue": null,
+                  },
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 3,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": <button
+                      className={undefined}
+                      onClick={[Function]}
+                    >
+                      Next
+                    </button>,
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": <button
+                      className={undefined}
+                      onClick={[Function]}
+                    >
+                      Next
+                    </button>,
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": FiberNode {
+                    "_debugID": 11,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugID": 25,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "alternate": null,
+                      "child": null,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Last",
+                        "className": undefined,
+                        "onClick": [Function],
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "Last",
+                        "className": undefined,
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": null,
+                      "stateNode": <button>
+                        Last
+                      </button>,
+                      "tag": 5,
+                      "type": "button",
+                      "updateQueue": null,
+                    },
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 4,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": <button
+                        className={undefined}
+                        onClick={[Function]}
+                      >
+                        Last
+                      </button>,
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": <button
+                        className={undefined}
+                        onClick={[Function]}
+                      >
+                        Last
+                      </button>,
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": null,
+                    "stateNode": <li>
+                      <button>
+                        Last
+                      </button>
+                    </li>,
+                    "tag": 5,
+                    "type": "li",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <li>
+                    <button>
+                      Next
+                    </button>
+                  </li>,
+                  "tag": 5,
+                  "type": "li",
+                  "updateQueue": null,
+                },
+                "stateNode": null,
+                "tag": 10,
+                "type": null,
+                "updateQueue": null,
+              },
+              "stateNode": <li>
+                <button
+                  class="disabled"
+                >
+                  Previous
+                </button>
+              </li>,
+              "tag": 5,
+              "type": "li",
+              "updateQueue": null,
+            },
+            "stateNode": <li>
+              <button
+                class="disabled"
+              >
+                First
+              </button>
+            </li>,
+            "tag": 5,
+            "type": "li",
+            "updateQueue": null,
+          },
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": Array [
+              <li>
+                <button
+                  className="disabled"
+                  onClick={[Function]}
+                >
+                  First
+                </button>
+              </li>,
+              <li>
+                <button
+                  className="disabled"
+                  onClick={[Function]}
+                >
+                  Previous
+                </button>
+              </li>,
+              Array [
+                <li>
+                  <button
+                    className="currentSelection"
+                    onClick={[Function]}
+                  >
+                    1
+                  </button>
+                </li>,
+                <li>
+                  <button
+                    className=""
+                    onClick={[Function]}
+                  >
+                    2
+                  </button>
+                </li>,
+                <li>
+                  <button
+                    className=""
+                    onClick={[Function]}
+                  >
+                    3
+                  </button>
+                </li>,
+                <li>
+                  <button
+                    className=""
+                    onClick={[Function]}
+                  >
+                    4
+                  </button>
+                </li>,
+                <li>
+                  <button
+                    className=""
+                    onClick={[Function]}
+                  >
+                    5
+                  </button>
+                </li>,
+              ],
+              <li>
+                <button
+                  className={undefined}
+                  onClick={[Function]}
+                >
+                  Next
+                </button>
+              </li>,
+              <li>
+                <button
+                  className={undefined}
+                  onClick={[Function]}
+                >
+                  Last
+                </button>
+              </li>,
+            ],
+            "className": "paging",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": Array [
+              <li>
+                <button
+                  className="disabled"
+                  onClick={[Function]}
+                >
+                  First
+                </button>
+              </li>,
+              <li>
+                <button
+                  className="disabled"
+                  onClick={[Function]}
+                >
+                  Previous
+                </button>
+              </li>,
+              Array [
+                <li>
+                  <button
+                    className="currentSelection"
+                    onClick={[Function]}
+                  >
+                    1
+                  </button>
+                </li>,
+                <li>
+                  <button
+                    className=""
+                    onClick={[Function]}
+                  >
+                    2
+                  </button>
+                </li>,
+                <li>
+                  <button
+                    className=""
+                    onClick={[Function]}
+                  >
+                    3
+                  </button>
+                </li>,
+                <li>
+                  <button
+                    className=""
+                    onClick={[Function]}
+                  >
+                    4
+                  </button>
+                </li>,
+                <li>
+                  <button
+                    className=""
+                    onClick={[Function]}
+                  >
+                    5
+                  </button>
+                </li>,
+              ],
+              <li>
+                <button
+                  className={undefined}
+                  onClick={[Function]}
+                >
+                  Next
+                </button>
+              </li>,
+              <li>
+                <button
+                  className={undefined}
+                  onClick={[Function]}
+                >
+                  Last
+                </button>
+              </li>,
+            ],
+            "className": "paging",
+          },
+          "ref": null,
+          "return": [Circular],
+          "sibling": null,
+          "stateNode": <ul
+            class="paging"
+          >
+            <li>
+              <button
+                class="disabled"
+              >
+                First
+              </button>
+            </li>
+            <li>
+              <button
+                class="disabled"
+              >
+                Previous
+              </button>
+            </li>
+            <li>
+              <button
+                class="currentSelection"
+              >
+                1
+              </button>
+            </li>
+            <li>
+              <button
+                class=""
+              >
+                2
+              </button>
+            </li>
+            <li>
+              <button
+                class=""
+              >
+                3
+              </button>
+            </li>
+            <li>
+              <button
+                class=""
+              >
+                4
+              </button>
+            </li>
+            <li>
+              <button
+                class=""
+              >
+                5
+              </button>
+            </li>
+            <li>
+              <button>
+                Next
+              </button>
+            </li>
+            <li>
+              <button>
+                Last
+              </button>
+            </li>
+          </ul>,
+          "tag": 5,
+          "type": "ul",
+          "updateQueue": null,
+        },
+        "effectTag": 1,
+        "expirationTime": 0,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "callback": [Function],
+          "currentPage": 1,
+          "maxSize": 5,
+          "totalPages": 10,
+        },
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "callback": [Function],
+          "currentPage": 1,
+          "maxSize": 5,
+          "totalPages": 10,
+        },
+        "ref": null,
+        "return": FiberNode {
+          "_debugID": 4,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "alternate": null,
+          "child": [Circular],
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "callback": [Function],
+              "currentPage": 1,
+              "maxSize": 5,
+              "totalPages": 10,
+            },
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {
+              "callback": [Function],
+              "currentPage": 1,
+              "maxSize": 5,
+              "totalPages": 10,
+            },
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "callback": [Function],
+              "currentPage": 1,
+              "maxSize": 5,
+              "totalPages": 10,
+            },
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 1,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "alternate": FiberNode {
+              "_debugID": 1,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "alternate": [Circular],
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 1,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <ul
+                    class="paging"
+                  >
+                    <li>
+                      <button
+                        class="disabled"
+                      >
+                        First
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class="disabled"
+                      >
+                        Previous
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class="currentSelection"
+                      >
+                        1
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        2
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        3
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        4
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        5
+                      </button>
+                    </li>
+                    <li>
+                      <button>
+                        Next
+                      </button>
+                    </li>
+                    <li>
+                      <button>
+                        Last
+                      </button>
+                    </li>
+                  </ul>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "remainingExpirationTime": 0,
+              },
+              "tag": 3,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "callbackList": null,
+                "capturedValues": null,
+                "expirationTime": 1,
+                "first": Object {
+                  "callback": null,
+                  "capturedValue": null,
+                  "expirationTime": 1,
+                  "isForced": false,
+                  "isReplace": false,
+                  "next": null,
+                  "partialState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "callback": [Function],
+                          "currentPage": 1,
+                          "maxSize": 5,
+                          "totalPages": 10,
+                        }
+                      }
+                    />,
+                  },
+                },
+                "hasForceUpdate": false,
+                "isInitialized": false,
+                "isProcessing": false,
+                "last": Object {
+                  "callback": null,
+                  "capturedValue": null,
+                  "expirationTime": 1,
+                  "isForced": false,
+                  "isReplace": false,
+                  "next": null,
+                  "partialState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "callback": [Function],
+                          "currentPage": 1,
+                          "maxSize": 5,
+                          "totalPages": 10,
+                        }
+                      }
+                    />,
+                  },
+                },
+              },
+            },
+            "child": [Circular],
+            "effectTag": 32,
+            "expirationTime": 0,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={
+                  Object {
+                    "callback": [Function],
+                    "currentPage": 1,
+                    "maxSize": 5,
+                    "totalPages": 10,
+                  }
+                }
+              />,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <ul
+                  class="paging"
+                >
+                  <li>
+                    <button
+                      class="disabled"
+                    >
+                      First
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="disabled"
+                    >
+                      Previous
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="currentSelection"
+                    >
+                      1
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class=""
+                    >
+                      2
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class=""
+                    >
+                      3
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class=""
+                    >
+                      4
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class=""
+                    >
+                      5
+                    </button>
+                  </li>
+                  <li>
+                    <button>
+                      Next
+                    </button>
+                  </li>
+                  <li>
+                    <button>
+                      Last
+                    </button>
+                  </li>
+                </ul>
+              </div>,
+              "context": Object {},
+              "current": [Circular],
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "remainingExpirationTime": 0,
+            },
+            "tag": 3,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "callback": [Function],
+                      "currentPage": 1,
+                      "maxSize": 5,
+                      "totalPages": 10,
+                    }
+                  }
+                />,
+              },
+              "callbackList": null,
+              "capturedValues": null,
+              "expirationTime": 0,
+              "first": null,
+              "hasForceUpdate": false,
+              "isInitialized": true,
+              "isProcessing": false,
+              "last": null,
+            },
+          },
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "callback": [Function],
+                "currentPage": 1,
+                "maxSize": 5,
+                "totalPages": 10,
+              },
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "callback": [Function],
+                "currentPage": 1,
+                "maxSize": 5,
+                "totalPages": 10,
+              },
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 2,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "sibling": null,
+        "stateNode": [Circular],
+        "tag": 2,
+        "type": [Function],
+        "updateQueue": null,
+      },
+      "_reactInternalInstance": Object {},
+      "context": Object {},
+      "props": Object {
+        "callback": [Function],
+        "currentPage": 1,
+        "maxSize": 5,
+        "totalPages": 10,
+      },
+      "refs": Object {},
+      "showNext": [Function],
+      "showPrevious": [Function],
+      "state": null,
+      "updater": Object {
+        "enqueueForceUpdate": [Function],
+        "enqueueReplaceState": [Function],
+        "enqueueSetState": [Function],
+        "isMounted": [Function],
+      },
+    },
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "callback": [Function],
+      "currentPage": 1,
+      "maxSize": 5,
+      "totalPages": 10,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <ul
+        class="paging"
+      >
+        <li>
+          <button
+            class="disabled"
+          >
+            First
+          </button>
+        </li>
+        <li>
+          <button
+            class="disabled"
+          >
+            Previous
+          </button>
+        </li>
+        <li>
+          <button
+            class="currentSelection"
+          >
+            1
+          </button>
+        </li>
+        <li>
+          <button
+            class=""
+          >
+            2
+          </button>
+        </li>
+        <li>
+          <button
+            class=""
+          >
+            3
+          </button>
+        </li>
+        <li>
+          <button
+            class=""
+          >
+            4
+          </button>
+        </li>
+        <li>
+          <button
+            class=""
+          >
+            5
+          </button>
+        </li>
+        <li>
+          <button>
+            Next
+          </button>
+        </li>
+        <li>
+          <button>
+            Last
+          </button>
+        </li>
+      </ul>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li>
+            <button
+              className="disabled"
+              onClick={[Function]}
+            >
+              First
+            </button>
+          </li>,
+          <li>
+            <button
+              className="disabled"
+              onClick={[Function]}
+            >
+              Previous
+            </button>
+          </li>,
+          Array [
+            <li>
+              <button
+                className="currentSelection"
+                onClick={[Function]}
+              >
+                1
+              </button>
+            </li>,
+            <li>
+              <button
+                className=""
+                onClick={[Function]}
+              >
+                2
+              </button>
+            </li>,
+            <li>
+              <button
+                className=""
+                onClick={[Function]}
+              >
+                3
+              </button>
+            </li>,
+            <li>
+              <button
+                className=""
+                onClick={[Function]}
+              >
+                4
+              </button>
+            </li>,
+            <li>
+              <button
+                className=""
+                onClick={[Function]}
+              >
+                5
+              </button>
+            </li>,
+          ],
+          <li>
+            <button
+              className={undefined}
+              onClick={[Function]}
+            >
+              Next
+            </button>
+          </li>,
+          <li>
+            <button
+              className={undefined}
+              onClick={[Function]}
+            >
+              Last
+            </button>
+          </li>,
+        ],
+        "className": "paging",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <li>
+            <button
+              class="disabled"
+            >
+              First
+            </button>
+          </li>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="disabled"
+              onClick={[Function]}
+            >
+              First
+            </button>,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <button
+                class="disabled"
+              >
+                First
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "First",
+                "className": "disabled",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "First",
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": <li>
+            <button
+              class="disabled"
+            >
+              Previous
+            </button>
+          </li>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="disabled"
+              onClick={[Function]}
+            >
+              Previous
+            </button>,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <button
+                class="disabled"
+              >
+                Previous
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Previous",
+                "className": "disabled",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Previous",
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": <li>
+            <button
+              class="currentSelection"
+            >
+              1
+            </button>
+          </li>,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="currentSelection"
+              onClick={[Function]}
+            >
+              1
+            </button>,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <button
+                class="currentSelection"
+              >
+                1
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 1,
+                "className": "currentSelection",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                1,
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": <li>
+            <button
+              class=""
+            >
+              2
+            </button>
+          </li>,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className=""
+              onClick={[Function]}
+            >
+              2
+            </button>,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <button
+                class=""
+              >
+                2
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 2,
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                2,
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": <li>
+            <button
+              class=""
+            >
+              3
+            </button>
+          </li>,
+          "key": "3",
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className=""
+              onClick={[Function]}
+            >
+              3
+            </button>,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <button
+                class=""
+              >
+                3
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 3,
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                3,
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": <li>
+            <button
+              class=""
+            >
+              4
+            </button>
+          </li>,
+          "key": "4",
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className=""
+              onClick={[Function]}
+            >
+              4
+            </button>,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <button
+                class=""
+              >
+                4
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 4,
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                4,
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": <li>
+            <button
+              class=""
+            >
+              5
+            </button>
+          </li>,
+          "key": "5",
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className=""
+              onClick={[Function]}
+            >
+              5
+            </button>,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <button
+                class=""
+              >
+                5
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 5,
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                5,
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": <li>
+            <button>
+              Next
+            </button>
+          </li>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className={undefined}
+              onClick={[Function]}
+            >
+              Next
+            </button>,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <button>
+                Next
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Next",
+                "className": undefined,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Next",
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": <li>
+            <button>
+              Last
+            </button>
+          </li>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className={undefined}
+              onClick={[Function]}
+            >
+              Last
+            </button>,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <button>
+                Last
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Last",
+                "className": undefined,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Last",
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": Pagination {
+        "_reactInternalFiber": FiberNode {
+          "_debugID": 5,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": FiberNode {
+            "_debugID": 4,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "alternate": null,
+            "child": [Circular],
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "callback": [Function],
+                "currentPage": 1,
+                "maxSize": 5,
+                "totalPages": 10,
+              },
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "callback": [Function],
+                "currentPage": 1,
+                "maxSize": 5,
+                "totalPages": 10,
+              },
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "callback": [Function],
+                "currentPage": 1,
+                "maxSize": 5,
+                "totalPages": 10,
+              },
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 1,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "alternate": FiberNode {
+                "_debugID": 1,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "alternate": [Circular],
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 1,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <ul
+                      class="paging"
+                    >
+                      <li>
+                        <button
+                          class="disabled"
+                        >
+                          First
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          class="disabled"
+                        >
+                          Previous
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          class="currentSelection"
+                        >
+                          1
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          class=""
+                        >
+                          2
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          class=""
+                        >
+                          3
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          class=""
+                        >
+                          4
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          class=""
+                        >
+                          5
+                        </button>
+                      </li>
+                      <li>
+                        <button>
+                          Next
+                        </button>
+                      </li>
+                      <li>
+                        <button>
+                          Last
+                        </button>
+                      </li>
+                    </ul>
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "remainingExpirationTime": 0,
+                },
+                "tag": 3,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "callbackList": null,
+                  "capturedValues": null,
+                  "expirationTime": 1,
+                  "first": Object {
+                    "callback": null,
+                    "capturedValue": null,
+                    "expirationTime": 1,
+                    "isForced": false,
+                    "isReplace": false,
+                    "next": null,
+                    "partialState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "callback": [Function],
+                            "currentPage": 1,
+                            "maxSize": 5,
+                            "totalPages": 10,
+                          }
+                        }
+                      />,
+                    },
+                  },
+                  "hasForceUpdate": false,
+                  "isInitialized": false,
+                  "isProcessing": false,
+                  "last": Object {
+                    "callback": null,
+                    "capturedValue": null,
+                    "expirationTime": 1,
+                    "isForced": false,
+                    "isReplace": false,
+                    "next": null,
+                    "partialState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "callback": [Function],
+                            "currentPage": 1,
+                            "maxSize": 5,
+                            "totalPages": 10,
+                          }
+                        }
+                      />,
+                    },
+                  },
+                },
+              },
+              "child": [Circular],
+              "effectTag": 32,
+              "expirationTime": 0,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "callback": [Function],
+                      "currentPage": 1,
+                      "maxSize": 5,
+                      "totalPages": 10,
+                    }
+                  }
+                />,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <ul
+                    class="paging"
+                  >
+                    <li>
+                      <button
+                        class="disabled"
+                      >
+                        First
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class="disabled"
+                      >
+                        Previous
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class="currentSelection"
+                      >
+                        1
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        2
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        3
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        4
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        5
+                      </button>
+                    </li>
+                    <li>
+                      <button>
+                        Next
+                      </button>
+                    </li>
+                    <li>
+                      <button>
+                        Last
+                      </button>
+                    </li>
+                  </ul>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "remainingExpirationTime": 0,
+              },
+              "tag": 3,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "callback": [Function],
+                        "currentPage": 1,
+                        "maxSize": 5,
+                        "totalPages": 10,
+                      }
+                    }
+                  />,
+                },
+                "callbackList": null,
+                "capturedValues": null,
+                "expirationTime": 0,
+                "first": null,
+                "hasForceUpdate": false,
+                "isInitialized": true,
+                "isProcessing": false,
+                "last": null,
+              },
+            },
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "callback": [Function],
+                  "currentPage": 1,
+                  "maxSize": 5,
+                  "totalPages": 10,
+                },
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {
+                  "callback": [Function],
+                  "currentPage": 1,
+                  "maxSize": 5,
+                  "totalPages": 10,
+                },
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "_debugSource": null,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 6,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 7,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 12,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "alternate": null,
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "First",
+                  "className": "disabled",
+                  "onClick": [Function],
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "First",
+                  "className": "disabled",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "return": [Circular],
+                "sibling": null,
+                "stateNode": <button
+                  class="disabled"
+                >
+                  First
+                </button>,
+                "tag": 5,
+                "type": "button",
+                "updateQueue": null,
+              },
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": <button
+                  className="disabled"
+                  onClick={[Function]}
+                >
+                  First
+                </button>,
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": <button
+                  className="disabled"
+                  onClick={[Function]}
+                >
+                  First
+                </button>,
+              },
+              "ref": null,
+              "return": [Circular],
+              "sibling": FiberNode {
+                "_debugID": 8,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 13,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "alternate": null,
+                  "child": null,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Previous",
+                    "className": "disabled",
+                    "onClick": [Function],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Previous",
+                    "className": "disabled",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": null,
+                  "stateNode": <button
+                    class="disabled"
+                  >
+                    Previous
+                  </button>,
+                  "tag": 5,
+                  "type": "button",
+                  "updateQueue": null,
+                },
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": <button
+                    className="disabled"
+                    onClick={[Function]}
+                  >
+                    Previous
+                  </button>,
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": <button
+                    className="disabled"
+                    onClick={[Function]}
+                  >
+                    Previous
+                  </button>,
+                },
+                "ref": null,
+                "return": [Circular],
+                "sibling": FiberNode {
+                  "_debugID": 9,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 14,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugID": 19,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "alternate": null,
+                      "child": null,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": 1,
+                        "className": "currentSelection",
+                        "onClick": [Function],
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": 1,
+                        "className": "currentSelection",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": null,
+                      "stateNode": <button
+                        class="currentSelection"
+                      >
+                        1
+                      </button>,
+                      "tag": 5,
+                      "type": "button",
+                      "updateQueue": null,
+                    },
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": "1",
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": <button
+                        className="currentSelection"
+                        onClick={[Function]}
+                      >
+                        1
+                      </button>,
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": <button
+                        className="currentSelection"
+                        onClick={[Function]}
+                      >
+                        1
+                      </button>,
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": FiberNode {
+                      "_debugID": 15,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "alternate": null,
+                      "child": FiberNode {
+                        "_debugID": 20,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "alternate": null,
+                        "child": null,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": 2,
+                          "className": "",
+                          "onClick": [Function],
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": 2,
+                          "className": "",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "sibling": null,
+                        "stateNode": <button
+                          class=""
+                        >
+                          2
+                        </button>,
+                        "tag": 5,
+                        "type": "button",
+                        "updateQueue": null,
+                      },
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 1,
+                      "key": "2",
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": <button
+                          className=""
+                          onClick={[Function]}
+                        >
+                          2
+                        </button>,
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": <button
+                          className=""
+                          onClick={[Function]}
+                        >
+                          2
+                        </button>,
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": FiberNode {
+                        "_debugID": 16,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "alternate": null,
+                        "child": FiberNode {
+                          "_debugID": 21,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": null,
+                          "alternate": null,
+                          "child": null,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 0,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": 3,
+                            "className": "",
+                            "onClick": [Function],
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "children": 3,
+                            "className": "",
+                            "onClick": [Function],
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "sibling": null,
+                          "stateNode": <button
+                            class=""
+                          >
+                            3
+                          </button>,
+                          "tag": 5,
+                          "type": "button",
+                          "updateQueue": null,
+                        },
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 2,
+                        "key": "3",
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": <button
+                            className=""
+                            onClick={[Function]}
+                          >
+                            3
+                          </button>,
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": <button
+                            className=""
+                            onClick={[Function]}
+                          >
+                            3
+                          </button>,
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "sibling": FiberNode {
+                          "_debugID": 17,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": null,
+                          "alternate": null,
+                          "child": FiberNode {
+                            "_debugID": 22,
+                            "_debugIsCurrentlyTiming": false,
+                            "_debugOwner": [Circular],
+                            "_debugSource": null,
+                            "alternate": null,
+                            "child": null,
+                            "effectTag": 0,
+                            "expirationTime": 0,
+                            "firstEffect": null,
+                            "index": 0,
+                            "key": null,
+                            "lastEffect": null,
+                            "memoizedProps": Object {
+                              "children": 4,
+                              "className": "",
+                              "onClick": [Function],
+                            },
+                            "memoizedState": null,
+                            "mode": 0,
+                            "nextEffect": null,
+                            "pendingProps": Object {
+                              "children": 4,
+                              "className": "",
+                              "onClick": [Function],
+                            },
+                            "ref": null,
+                            "return": [Circular],
+                            "sibling": null,
+                            "stateNode": <button
+                              class=""
+                            >
+                              4
+                            </button>,
+                            "tag": 5,
+                            "type": "button",
+                            "updateQueue": null,
+                          },
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 3,
+                          "key": "4",
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": <button
+                              className=""
+                              onClick={[Function]}
+                            >
+                              4
+                            </button>,
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "children": <button
+                              className=""
+                              onClick={[Function]}
+                            >
+                              4
+                            </button>,
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "sibling": FiberNode {
+                            "_debugID": 18,
+                            "_debugIsCurrentlyTiming": false,
+                            "_debugOwner": [Circular],
+                            "_debugSource": null,
+                            "alternate": null,
+                            "child": FiberNode {
+                              "_debugID": 23,
+                              "_debugIsCurrentlyTiming": false,
+                              "_debugOwner": [Circular],
+                              "_debugSource": null,
+                              "alternate": null,
+                              "child": null,
+                              "effectTag": 0,
+                              "expirationTime": 0,
+                              "firstEffect": null,
+                              "index": 0,
+                              "key": null,
+                              "lastEffect": null,
+                              "memoizedProps": Object {
+                                "children": 5,
+                                "className": "",
+                                "onClick": [Function],
+                              },
+                              "memoizedState": null,
+                              "mode": 0,
+                              "nextEffect": null,
+                              "pendingProps": Object {
+                                "children": 5,
+                                "className": "",
+                                "onClick": [Function],
+                              },
+                              "ref": null,
+                              "return": [Circular],
+                              "sibling": null,
+                              "stateNode": <button
+                                class=""
+                              >
+                                5
+                              </button>,
+                              "tag": 5,
+                              "type": "button",
+                              "updateQueue": null,
+                            },
+                            "effectTag": 0,
+                            "expirationTime": 0,
+                            "firstEffect": null,
+                            "index": 4,
+                            "key": "5",
+                            "lastEffect": null,
+                            "memoizedProps": Object {
+                              "children": <button
+                                className=""
+                                onClick={[Function]}
+                              >
+                                5
+                              </button>,
+                            },
+                            "memoizedState": null,
+                            "mode": 0,
+                            "nextEffect": null,
+                            "pendingProps": Object {
+                              "children": <button
+                                className=""
+                                onClick={[Function]}
+                              >
+                                5
+                              </button>,
+                            },
+                            "ref": null,
+                            "return": [Circular],
+                            "sibling": null,
+                            "stateNode": <li>
+                              <button
+                                class=""
+                              >
+                                5
+                              </button>
+                            </li>,
+                            "tag": 5,
+                            "type": "li",
+                            "updateQueue": null,
+                          },
+                          "stateNode": <li>
+                            <button
+                              class=""
+                            >
+                              4
+                            </button>
+                          </li>,
+                          "tag": 5,
+                          "type": "li",
+                          "updateQueue": null,
+                        },
+                        "stateNode": <li>
+                          <button
+                            class=""
+                          >
+                            3
+                          </button>
+                        </li>,
+                        "tag": 5,
+                        "type": "li",
+                        "updateQueue": null,
+                      },
+                      "stateNode": <li>
+                        <button
+                          class=""
+                        >
+                          2
+                        </button>
+                      </li>,
+                      "tag": 5,
+                      "type": "li",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <li>
+                      <button
+                        class="currentSelection"
+                      >
+                        1
+                      </button>
+                    </li>,
+                    "tag": 5,
+                    "type": "li",
+                    "updateQueue": null,
+                  },
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 2,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Array [
+                    <li>
+                      <button
+                        className="currentSelection"
+                        onClick={[Function]}
+                      >
+                        1
+                      </button>
+                    </li>,
+                    <li>
+                      <button
+                        className=""
+                        onClick={[Function]}
+                      >
+                        2
+                      </button>
+                    </li>,
+                    <li>
+                      <button
+                        className=""
+                        onClick={[Function]}
+                      >
+                        3
+                      </button>
+                    </li>,
+                    <li>
+                      <button
+                        className=""
+                        onClick={[Function]}
+                      >
+                        4
+                      </button>
+                    </li>,
+                    <li>
+                      <button
+                        className=""
+                        onClick={[Function]}
+                      >
+                        5
+                      </button>
+                    </li>,
+                  ],
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Array [
+                    <li>
+                      <button
+                        className="currentSelection"
+                        onClick={[Function]}
+                      >
+                        1
+                      </button>
+                    </li>,
+                    <li>
+                      <button
+                        className=""
+                        onClick={[Function]}
+                      >
+                        2
+                      </button>
+                    </li>,
+                    <li>
+                      <button
+                        className=""
+                        onClick={[Function]}
+                      >
+                        3
+                      </button>
+                    </li>,
+                    <li>
+                      <button
+                        className=""
+                        onClick={[Function]}
+                      >
+                        4
+                      </button>
+                    </li>,
+                    <li>
+                      <button
+                        className=""
+                        onClick={[Function]}
+                      >
+                        5
+                      </button>
+                    </li>,
+                  ],
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": FiberNode {
+                    "_debugID": 10,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugID": 24,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "alternate": null,
+                      "child": null,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Next",
+                        "className": undefined,
+                        "onClick": [Function],
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "Next",
+                        "className": undefined,
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": null,
+                      "stateNode": <button>
+                        Next
+                      </button>,
+                      "tag": 5,
+                      "type": "button",
+                      "updateQueue": null,
+                    },
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 3,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": <button
+                        className={undefined}
+                        onClick={[Function]}
+                      >
+                        Next
+                      </button>,
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": <button
+                        className={undefined}
+                        onClick={[Function]}
+                      >
+                        Next
+                      </button>,
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": FiberNode {
+                      "_debugID": 11,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "alternate": null,
+                      "child": FiberNode {
+                        "_debugID": 25,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "alternate": null,
+                        "child": null,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": "Last",
+                          "className": undefined,
+                          "onClick": [Function],
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": "Last",
+                          "className": undefined,
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "sibling": null,
+                        "stateNode": <button>
+                          Last
+                        </button>,
+                        "tag": 5,
+                        "type": "button",
+                        "updateQueue": null,
+                      },
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 4,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": <button
+                          className={undefined}
+                          onClick={[Function]}
+                        >
+                          Last
+                        </button>,
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": <button
+                          className={undefined}
+                          onClick={[Function]}
+                        >
+                          Last
+                        </button>,
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": null,
+                      "stateNode": <li>
+                        <button>
+                          Last
+                        </button>
+                      </li>,
+                      "tag": 5,
+                      "type": "li",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <li>
+                      <button>
+                        Next
+                      </button>
+                    </li>,
+                    "tag": 5,
+                    "type": "li",
+                    "updateQueue": null,
+                  },
+                  "stateNode": null,
+                  "tag": 10,
+                  "type": null,
+                  "updateQueue": null,
+                },
+                "stateNode": <li>
+                  <button
+                    class="disabled"
+                  >
+                    Previous
+                  </button>
+                </li>,
+                "tag": 5,
+                "type": "li",
+                "updateQueue": null,
+              },
+              "stateNode": <li>
+                <button
+                  class="disabled"
+                >
+                  First
+                </button>
+              </li>,
+              "tag": 5,
+              "type": "li",
+              "updateQueue": null,
+            },
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <li>
+                  <button
+                    className="disabled"
+                    onClick={[Function]}
+                  >
+                    First
+                  </button>
+                </li>,
+                <li>
+                  <button
+                    className="disabled"
+                    onClick={[Function]}
+                  >
+                    Previous
+                  </button>
+                </li>,
+                Array [
+                  <li>
+                    <button
+                      className="currentSelection"
+                      onClick={[Function]}
+                    >
+                      1
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      2
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      3
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      4
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      5
+                    </button>
+                  </li>,
+                ],
+                <li>
+                  <button
+                    className={undefined}
+                    onClick={[Function]}
+                  >
+                    Next
+                  </button>
+                </li>,
+                <li>
+                  <button
+                    className={undefined}
+                    onClick={[Function]}
+                  >
+                    Last
+                  </button>
+                </li>,
+              ],
+              "className": "paging",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": Array [
+                <li>
+                  <button
+                    className="disabled"
+                    onClick={[Function]}
+                  >
+                    First
+                  </button>
+                </li>,
+                <li>
+                  <button
+                    className="disabled"
+                    onClick={[Function]}
+                  >
+                    Previous
+                  </button>
+                </li>,
+                Array [
+                  <li>
+                    <button
+                      className="currentSelection"
+                      onClick={[Function]}
+                    >
+                      1
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      2
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      3
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      4
+                    </button>
+                  </li>,
+                  <li>
+                    <button
+                      className=""
+                      onClick={[Function]}
+                    >
+                      5
+                    </button>
+                  </li>,
+                ],
+                <li>
+                  <button
+                    className={undefined}
+                    onClick={[Function]}
+                  >
+                    Next
+                  </button>
+                </li>,
+                <li>
+                  <button
+                    className={undefined}
+                    onClick={[Function]}
+                  >
+                    Last
+                  </button>
+                </li>,
+              ],
+              "className": "paging",
+            },
+            "ref": null,
+            "return": [Circular],
+            "sibling": null,
+            "stateNode": <ul
+              class="paging"
+            >
+              <li>
+                <button
+                  class="disabled"
+                >
+                  First
+                </button>
+              </li>
+              <li>
+                <button
+                  class="disabled"
+                >
+                  Previous
+                </button>
+              </li>
+              <li>
+                <button
+                  class="currentSelection"
+                >
+                  1
+                </button>
+              </li>
+              <li>
+                <button
+                  class=""
+                >
+                  2
+                </button>
+              </li>
+              <li>
+                <button
+                  class=""
+                >
+                  3
+                </button>
+              </li>
+              <li>
+                <button
+                  class=""
+                >
+                  4
+                </button>
+              </li>
+              <li>
+                <button
+                  class=""
+                >
+                  5
+                </button>
+              </li>
+              <li>
+                <button>
+                  Next
+                </button>
+              </li>
+              <li>
+                <button>
+                  Last
+                </button>
+              </li>
+            </ul>,
+            "tag": 5,
+            "type": "ul",
+            "updateQueue": null,
+          },
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "callback": [Function],
+            "currentPage": 1,
+            "maxSize": 5,
+            "totalPages": 10,
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "callback": [Function],
+            "currentPage": 1,
+            "maxSize": 5,
+            "totalPages": 10,
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 4,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "alternate": null,
+            "child": [Circular],
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "callback": [Function],
+                "currentPage": 1,
+                "maxSize": 5,
+                "totalPages": 10,
+              },
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "callback": [Function],
+                "currentPage": 1,
+                "maxSize": 5,
+                "totalPages": 10,
+              },
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "callback": [Function],
+                "currentPage": 1,
+                "maxSize": 5,
+                "totalPages": 10,
+              },
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 1,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "alternate": FiberNode {
+                "_debugID": 1,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "alternate": [Circular],
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 1,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <ul
+                      class="paging"
+                    >
+                      <li>
+                        <button
+                          class="disabled"
+                        >
+                          First
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          class="disabled"
+                        >
+                          Previous
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          class="currentSelection"
+                        >
+                          1
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          class=""
+                        >
+                          2
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          class=""
+                        >
+                          3
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          class=""
+                        >
+                          4
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          class=""
+                        >
+                          5
+                        </button>
+                      </li>
+                      <li>
+                        <button>
+                          Next
+                        </button>
+                      </li>
+                      <li>
+                        <button>
+                          Last
+                        </button>
+                      </li>
+                    </ul>
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "remainingExpirationTime": 0,
+                },
+                "tag": 3,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "callbackList": null,
+                  "capturedValues": null,
+                  "expirationTime": 1,
+                  "first": Object {
+                    "callback": null,
+                    "capturedValue": null,
+                    "expirationTime": 1,
+                    "isForced": false,
+                    "isReplace": false,
+                    "next": null,
+                    "partialState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "callback": [Function],
+                            "currentPage": 1,
+                            "maxSize": 5,
+                            "totalPages": 10,
+                          }
+                        }
+                      />,
+                    },
+                  },
+                  "hasForceUpdate": false,
+                  "isInitialized": false,
+                  "isProcessing": false,
+                  "last": Object {
+                    "callback": null,
+                    "capturedValue": null,
+                    "expirationTime": 1,
+                    "isForced": false,
+                    "isReplace": false,
+                    "next": null,
+                    "partialState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "callback": [Function],
+                            "currentPage": 1,
+                            "maxSize": 5,
+                            "totalPages": 10,
+                          }
+                        }
+                      />,
+                    },
+                  },
+                },
+              },
+              "child": [Circular],
+              "effectTag": 32,
+              "expirationTime": 0,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "callback": [Function],
+                      "currentPage": 1,
+                      "maxSize": 5,
+                      "totalPages": 10,
+                    }
+                  }
+                />,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <ul
+                    class="paging"
+                  >
+                    <li>
+                      <button
+                        class="disabled"
+                      >
+                        First
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class="disabled"
+                      >
+                        Previous
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class="currentSelection"
+                      >
+                        1
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        2
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        3
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        4
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class=""
+                      >
+                        5
+                      </button>
+                    </li>
+                    <li>
+                      <button>
+                        Next
+                      </button>
+                    </li>
+                    <li>
+                      <button>
+                        Last
+                      </button>
+                    </li>
+                  </ul>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "remainingExpirationTime": 0,
+              },
+              "tag": 3,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "callback": [Function],
+                        "currentPage": 1,
+                        "maxSize": 5,
+                        "totalPages": 10,
+                      }
+                    }
+                  />,
+                },
+                "callbackList": null,
+                "capturedValues": null,
+                "expirationTime": 0,
+                "first": null,
+                "hasForceUpdate": false,
+                "isInitialized": true,
+                "isProcessing": false,
+                "last": null,
+              },
+            },
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "callback": [Function],
+                  "currentPage": 1,
+                  "maxSize": 5,
+                  "totalPages": 10,
+                },
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {
+                  "callback": [Function],
+                  "currentPage": 1,
+                  "maxSize": 5,
+                  "totalPages": 10,
+                },
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "sibling": null,
+          "stateNode": [Circular],
+          "tag": 2,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_reactInternalInstance": Object {},
+        "context": Object {},
+        "props": Object {
+          "callback": [Function],
+          "currentPage": 1,
+          "maxSize": 5,
+          "totalPages": 10,
+        },
+        "refs": Object {},
+        "showNext": [Function],
+        "showPrevious": [Function],
+        "state": null,
+        "updater": Object {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "callback": [Function],
+        "currentPage": 1,
+        "maxSize": 5,
+        "totalPages": 10,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <ul
+          class="paging"
+        >
+          <li>
+            <button
+              class="disabled"
+            >
+              First
+            </button>
+          </li>
+          <li>
+            <button
+              class="disabled"
+            >
+              Previous
+            </button>
+          </li>
+          <li>
+            <button
+              class="currentSelection"
+            >
+              1
+            </button>
+          </li>
+          <li>
+            <button
+              class=""
+            >
+              2
+            </button>
+          </li>
+          <li>
+            <button
+              class=""
+            >
+              3
+            </button>
+          </li>
+          <li>
+            <button
+              class=""
+            >
+              4
+            </button>
+          </li>
+          <li>
+            <button
+              class=""
+            >
+              5
+            </button>
+          </li>
+          <li>
+            <button>
+              Next
+            </button>
+          </li>
+          <li>
+            <button>
+              Last
+            </button>
+          </li>
+        </ul>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              <button
+                className="disabled"
+                onClick={[Function]}
+              >
+                First
+              </button>
+            </li>,
+            <li>
+              <button
+                className="disabled"
+                onClick={[Function]}
+              >
+                Previous
+              </button>
+            </li>,
+            Array [
+              <li>
+                <button
+                  className="currentSelection"
+                  onClick={[Function]}
+                >
+                  1
+                </button>
+              </li>,
+              <li>
+                <button
+                  className=""
+                  onClick={[Function]}
+                >
+                  2
+                </button>
+              </li>,
+              <li>
+                <button
+                  className=""
+                  onClick={[Function]}
+                >
+                  3
+                </button>
+              </li>,
+              <li>
+                <button
+                  className=""
+                  onClick={[Function]}
+                >
+                  4
+                </button>
+              </li>,
+              <li>
+                <button
+                  className=""
+                  onClick={[Function]}
+                >
+                  5
+                </button>
+              </li>,
+            ],
+            <li>
+              <button
+                className={undefined}
+                onClick={[Function]}
+              >
+                Next
+              </button>
+            </li>,
+            <li>
+              <button
+                className={undefined}
+                onClick={[Function]}
+              >
+                Last
+              </button>
+            </li>,
+          ],
+          "className": "paging",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <li>
+              <button
+                class="disabled"
+              >
+                First
+              </button>
+            </li>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className="disabled"
+                onClick={[Function]}
+              >
+                First
+              </button>,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <button
+                  class="disabled"
+                >
+                  First
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "First",
+                  "className": "disabled",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "First",
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": <li>
+              <button
+                class="disabled"
+              >
+                Previous
+              </button>
+            </li>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className="disabled"
+                onClick={[Function]}
+              >
+                Previous
+              </button>,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <button
+                  class="disabled"
+                >
+                  Previous
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Previous",
+                  "className": "disabled",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Previous",
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": <li>
+              <button
+                class="currentSelection"
+              >
+                1
+              </button>
+            </li>,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className="currentSelection"
+                onClick={[Function]}
+              >
+                1
+              </button>,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <button
+                  class="currentSelection"
+                >
+                  1
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 1,
+                  "className": "currentSelection",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  1,
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": <li>
+              <button
+                class=""
+              >
+                2
+              </button>
+            </li>,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className=""
+                onClick={[Function]}
+              >
+                2
+              </button>,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <button
+                  class=""
+                >
+                  2
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 2,
+                  "className": "",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  2,
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": <li>
+              <button
+                class=""
+              >
+                3
+              </button>
+            </li>,
+            "key": "3",
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className=""
+                onClick={[Function]}
+              >
+                3
+              </button>,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <button
+                  class=""
+                >
+                  3
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 3,
+                  "className": "",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  3,
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": <li>
+              <button
+                class=""
+              >
+                4
+              </button>
+            </li>,
+            "key": "4",
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className=""
+                onClick={[Function]}
+              >
+                4
+              </button>,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <button
+                  class=""
+                >
+                  4
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 4,
+                  "className": "",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  4,
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": <li>
+              <button
+                class=""
+              >
+                5
+              </button>
+            </li>,
+            "key": "5",
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className=""
+                onClick={[Function]}
+              >
+                5
+              </button>,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <button
+                  class=""
+                >
+                  5
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 5,
+                  "className": "",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  5,
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": <li>
+              <button>
+                Next
+              </button>
+            </li>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className={undefined}
+                onClick={[Function]}
+              >
+                Next
+              </button>,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <button>
+                  Next
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Next",
+                  "className": undefined,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Next",
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": <li>
+              <button>
+                Last
+              </button>
+            </li>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className={undefined}
+                onClick={[Function]}
+              >
+                Last
+              </button>,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <button>
+                  Last
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Last",
+                  "className": undefined,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Last",
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
