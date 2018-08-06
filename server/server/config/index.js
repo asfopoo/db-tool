@@ -26,6 +26,20 @@ const config = convict({
       env: 'SCHEMA',
     },
   },
+  leadgen: {
+    dbUrl: {
+      doc: 'The Database URL',
+      format: String,
+      default: 'postgresql://admin:p455w0rd@10.10.1.214:5432/returnlogic-lead-gen',
+      env: 'POSTGRES_URL',
+    },
+    schema: {
+      doc: 'The Default Database Schema For Sequelize',
+      default: 'rlap',
+      format: String,
+      env: 'LEADGENSCHEMA',
+    },
+  },
   jwt: {
     key: {
       doc: 'The Key For The JSON Webtoken',

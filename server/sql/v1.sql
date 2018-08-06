@@ -26,7 +26,7 @@ CREATE TABLE rlinternal.internal_role_permissions (
 	role_id BIGINT REFERENCES rlinternal.internal_roles ON DELETE CASCADE ON UPDATE CASCADE,
 	permission_id BIGINT REFERENCES rlinternal.internal_permissions ON DELETE CASCADE ON UPDATE CASCADE,
 	created_at timestamp with time zone default timezone('utc', now()),
-	updated_at timestamp with time zone default timezone('utc', now())
+	updated_at timestamp with time zone default timezone('utc', now()),
 	PRIMARY KEY(role_id, permission_id)
 );
 

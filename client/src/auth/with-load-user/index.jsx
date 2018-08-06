@@ -26,6 +26,7 @@ export const withLoadUser = WrappedComponent => {
       const user = AuthService.decodeToken();
 
       this.props.authenticate(user)
+      console.log("USER LOADED");
     }
 
     componentWillMount() {

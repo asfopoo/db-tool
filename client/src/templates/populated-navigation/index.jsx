@@ -36,8 +36,12 @@ class PopulatedNavigation extends Component {
         logo="https://s3.amazonaws.com/media.returnlogic.com/logo/rl_logo_new_white.png"
       >
         <SideNavigationItem href="/dashboard"><i className="fa fa-home"/>Home</SideNavigationItem>
-        <SideNavigationItem href="/dashboard/customers"><i className="fa fa-user"/>Customers</SideNavigationItem>
-        <SideNavigationItem href="/dashboard/users"><i className="fa fa-users"/>Users</SideNavigationItem>
+
+
+
+
+
+
         <SideNavigationItem
           href="#"
           overrideOnClick={e => this.logout(e)}
@@ -56,3 +60,13 @@ const mapDispatchToProps = dispatch => {
 };
 
 export default withRouter(connect(null, mapDispatchToProps)(PopulatedNavigation))
+
+
+/*
+
+<SideNavigationItem href="/dashboard/customers"><i className="fa fa-user"/>Customers</SideNavigationItem>
+<SideNavigationItem href="/dashboard/users"><i className="fa fa-users"/>Users</SideNavigationItem>
+
+These came from large space in the middle of the code
+
+ */

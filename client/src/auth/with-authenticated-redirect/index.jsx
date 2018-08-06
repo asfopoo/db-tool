@@ -9,8 +9,10 @@ import {
 export const withAuthenticatedRedirect = (WrappedComponent, route) => {
   class AuthenticatedRedirect extends Component {
     componentWillMount() {
+      console.log(this.props);
       if (this.props.isAuthenticated) {
         this.props.history.push(route);
+        console.log("AUTHORIZED");
       }
     }
 

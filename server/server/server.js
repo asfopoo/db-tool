@@ -1,3 +1,17 @@
+Object.defineProperty(Error.prototype, 'toJSON', {
+  value: function () {
+    var alt = {};
+
+    Object.getOwnPropertyNames(this).forEach(function (key) {
+      alt[key] = this[key];
+    }, this);
+
+    return alt;
+  },
+  configurable: true,
+  writable: true
+});
+
 const ApplicationContainer = require('./application-container');
 
 const app = new ApplicationContainer({
@@ -12,7 +26,6 @@ app.dependencies.load([
   '/config',
   '/resources/passport-local',
   '/resources/database-connection',
-  '/resources/recurly',
   '/models',
   '/models/internal-application/internal-roles-model',
   '/models/internal-application/internal-users-model',
@@ -25,6 +38,9 @@ app.dependencies.load([
   '/models/main-application/roles-model',
   '/auth/auth-service',
   '/team/team-service',
+  '/resources/lead-gen-connection',
+  '/models/lead-gen/lead-gen-master-clean-model',
+  '/models/lead-gen/lead-gen-Elist-model'
 ]);
 
 app.middleware.load([
@@ -36,6 +52,11 @@ app.controllers.load([
   '/internal-users/internal-users-controller',
   '/internal-roles/internal-roles-controller',
   '/team/team-controller',
+  '/lead-gen/controller.js',
+  '/uploader/uploader-controller',
+  //'/insertion/uploader-controller',
+  '/downloader/downloader-controller',
+
 ]);
 
 app.bootstrap();

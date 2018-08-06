@@ -18,6 +18,7 @@ const AuthService = {
   },
   removeToken(){
     localStorage.removeItem(config.get('tokenName'));
+
   },
   setToken(value){
     localStorage.setItem(config.get('tokenName'), value);

@@ -11,7 +11,7 @@ function arrayToSnakeCase(arr){
   });
 }
 
-exports = module.exports = function TeamController(connection, TeamModel, UserModel, TeamUserModel, RoleModel, RecurlyClient) {
+exports = module.exports = function TeamController(connection, TeamModel, UserModel, TeamUserModel, RoleModel) {
   return [
     {
       route: '/teams',
@@ -62,13 +62,7 @@ exports = module.exports = function TeamController(connection, TeamModel, UserMo
             });
           });
         }).then(team => {
-          return RecurlyClient.accounts.create({
-            account_code: team.teamId,
-            company_name: team.teamName,
-            address: team.teamAddress,
-          }).then(_ => {
-            return Promise.resolve(team);
-          });
+          return Promise.resolve(team);
         }).then(team => {
           return res.jsonSuccess(team);
         }).catch(err => {
@@ -121,5 +115,4 @@ exports['controller-dependencies'] = [
   'UserModel',
   'TeamUserModel',
   'RoleModel',
-  'RecurlyClient',
 ];
