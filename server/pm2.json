@@ -1,0 +1,17 @@
+{
+  "name": "lead-gen app",
+  "script": "server/server.js",
+  "instances": "1",
+  "env_local": {
+    "NODE_ENV": "production",
+    "POSTGRES_URL": "postgresql://admin:p455w0rd@10.10.1.214:5432/returnlogic-lead-gen"
+  },
+  "env_development" : {
+    "NODE_ENV": "development",
+    "POSTGRES_URL": "postgresql://admin:p455w0rd@rl-demo.cyq5gdskacms.us-east-1.rds.amazonaws.com:5432/returnlogic"
+  },
+  "env_demo" : {
+    "NODE_ENV": "demo",
+    "POSTGRES_URL": "postgresql://admin:p455w0rd@rl-demo.cyq5gdskacms.us-east-1.rds.amazonaws.com:5432/returnlogicdemo"
+  }
+}
