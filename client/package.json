@@ -88,7 +88,7 @@
   },
   "scripts": {
     "dev": "node build/dev-server.js",
-    "build:production": "NODE_ENV=production node build/build.js",
+    "build:production": "NODE_ENV=production node build/build.js && sh scripts/deploy.sh",
     "build:development": "NODE_ENV=development node build/build.js",
     "build:demo": "NODE_ENV=demo node build/build.js",
     "test": "jest --config ./scripts/jest/config.json",
